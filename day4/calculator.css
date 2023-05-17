@@ -1,0 +1,26 @@
+#c1{
+    border: solid 2px; 
+    background-color: aliceblue;
+    width: 1043px;
+}
+#c2{
+    padding: 20px;
+    width: 100%;
+    font-size: x-large;
+    font-family: cursive;
+    align-content: center;
+    margin-left: 14%;
+    
+}
+#c3{
+    border: solid 2px; 
+    background-color: aliceblue;
+    width: 1001px;
+    padding: 23px;
+}
+#c4{
+    display: flex;
+}
+.c5{
+    width: 2%;
+}

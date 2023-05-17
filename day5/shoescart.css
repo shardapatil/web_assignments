@@ -1,0 +1,50 @@
+.row{
+    display: flex;
+    width: 1500px;
+}
+.col-4{
+    border: 2px  black;
+}
+#c1{
+    margin-left: 20%;
+    border:0;
+}
+#c3{
+    margin-right: 20%;
+    border: 0;
+}
+#a1{
+    font-size: xx-large; 
+    font-family: cursive; 
+    background-color: aqua;
+    text-align: center;
+    height: 210px;
+    border: solid 3px;
+    color: white;
+    background-image: url('sbg.jpg');
+    background-size: cover;
+}
+img{
+    width: 350px;
+    height: 300px;
+}
+#c2{
+    margin-left: 14%;
+    margin-right: 20%;
+}
+#r3{
+    display: flex;
+}
+h2,button{
+margin-left: 36%;
+}
+#sc1{
+    margin-left: 80%;
+    width: 100px;
+    height: 79px;
+    padding-top: 2px;
+}
+sup{
+    vertical-align: super;
+    font-size: x-large;
+}

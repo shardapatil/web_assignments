@@ -1,0 +1,22 @@
+#a1{
+    text-align: center;
+    background: rgb(188, 195, 196);
+    border: 5px;
+    padding: 2%;
+    width: 105.3%;
+    margin-left: -4.62%;
+    margin-top: -58px;
+    background-color: #9fadad;
+    font-family: cursive;
+    font-size: medium;
+}
+#a2
+{
+    padding: 60px;
+    border: solid;
+    background-color: rgb(174, 229, 240);
+}
+table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}

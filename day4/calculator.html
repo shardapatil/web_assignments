@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <script src="calculator.js"></script>
+  <body>
+    <div id="c2">
+      <div id="c1">
+        <div>
+          <h1 style="text-align: center">Calculator</h1>
+        </div>
+      </div>
+      <br />
+      <div id="c3">
+        <div>
+          <label>Enter first number : </label>
+          <input type="text" id="num1" placeholder="Enter number" />
+          <br />
+          <label>Enter second number : </label>
+          <input type="text" id="num2" placeholder="Enter number" />
+        </div>
+        <br />
+        <div id="c4">
+          <button class="c5" id="add" onclick="calculator('add')">+</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="c5" id="sub" onclick="calculator('sub')">-</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="c5" id="mul" onclick="calculator('mul')">*</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="c5" id="div" onclick="calculator('div')">/</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="c5" id="div" onclick="calculator('mod')">%</button>
+        </div>
+        <br />
+        <label>Result : <span id="res"></span> </label>
+      </div>
+    </div>
+  </body>
+</html>

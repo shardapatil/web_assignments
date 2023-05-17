@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoecart</title>
+    <link rel="stylesheet" href="shoescart.css" />
+    <link rel="icon" href="sicon.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="shoescart.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div id="c2" class="col-4">
+          <header id="a1">ShoeCart</header>
+          <br />
+          <div style="background-color: black">
+            <!-- <span style="color: white">Welcome to ShoeCart</span> -->
+            <!-- <p style="color: white;width: 20px;">Welcome to ShoeCart</p> -->
+            <i
+              class="fa fa-shopping-cart"
+              style="font-size: 48px; color: white; margin-left: 87%"
+            ></i>
+            <span style="color: white"> <sup id="counter">0</sup></span>
+          </div>
+          <br />
+          <div id="r3">
+            <div>
+              <img src="s1.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button id="b1" onclick="count()" ondblclick="showAndHide(true)">
+                add to cart
+              </button>
+            </div>
+            <div>
+              <img src="s2.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button id="b2" onclick="count()" ondblclick="disablebtn(true)">
+                add to cart
+              </button>
+            </div>
+            <div>
+              <img src="s3.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button id="b3" onclick="count()">add to cart</button>
+              <button id="b1" onclick="countdec()">remove from cart</button>
+            </div>
+          </div>
+          <br />
+          <div id="r3">
+            <div>
+              <img src="s4.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button onclick="count()">add to cart</button>
+            </div>
+            <div>
+              <img src="s5.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button onclick="count()">add to cart</button>
+            </div>
+            <div>
+              <img src="s6.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button onclick="count()">add to cart</button>
+            </div>
+          </div>
+          <br />
+          <div id="r3">
+            <div>
+              <img src="s7.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button onclick="count()">add to cart</button>
+            </div>
+            <div>
+              <img src="s8.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button onclick="count()">add to cart</button>
+            </div>
+            <div>
+              <img src="s9.jpg" alt="shoe" />
+              <h2>$650</h2>
+              <button onclick="count()">add to cart</button>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

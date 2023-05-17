@@ -1,0 +1,17 @@
+let patterna = "";
+console.log("pattern in Ascending order");
+for(let i=0;i<5;i++)
+{
+    patterna = patterna + "*";
+    console.log(patterna);
+}
+
+console.log("pattern in descending order");
+let patternd = "";
+for (let n = 1; n <= 5; n++) {
+    for (let num = 1; num <= 6 - n; num++) {
+       patternd += "*";
+    }
+    patternd += "\n";
+ }
+ console.log(patternd);

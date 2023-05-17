@@ -1,0 +1,36 @@
+.col-4{
+    border: 3px solid red;
+}
+.row{
+    display: flex;
+}
+#c1{
+    margin-left: 20%;
+}
+#c2{
+    margin-right: 20%;
+}
+#c3{
+    width: 20%;
+}
+#x3{
+    border: solid;
+    margin-left: -5%;
+    margin-right: 20%;
+    /* max-width: 100%; */
+    padding: 10px;
+}
+.container{
+    margin-left: 19%;
+    width: 85%;
+}
+header{
+    background-color: antiquewhite;
+    color: black;
+    border: 2px black solid;
+    margin-left: -4%;
+    margin-right: 19%;
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+}

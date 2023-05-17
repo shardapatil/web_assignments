@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="q1.js"></script>
+  </head>
+  <body>
+    <h1>TODO APP</h1>
+
+    <input id="messageId" type="text" placeholder="Whatsapppppp...." />
+
+    <input
+      id="btnid"
+      type="button"
+      value="Add New Element/Tag"
+      onclick="addNewElement(this)"
+    />
+
+    <!-- Parent for the newly created element -->
+    <div id="parent">
+      <div
+        style="
+          font-size: 28px;
+          margin-top: 8px;
+          display: flex;
+          justify-content: space-between;
+        "
+      >
+        <div>Hello</div>
+        <input type="button" value="Delete" onclick="deleteTheMessage(this)" />
+      </div>
+    </div>
+  </body>
+</html>

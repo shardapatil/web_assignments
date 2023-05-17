@@ -1,0 +1,13 @@
+#x3{
+    border: solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* max-width: 100%; */
+}
+.row{
+    display: flex;
+}
+.container{
+    margin-left: 19%;
+    width: 85%;
+}
