@@ -1,11 +1,11 @@
 MyJson={
-    "name" : "Nikhil",
+    "name" : "Sharda",
     "Score" : 80.25,
     "isAdmin" : false,
     "license" : null,
     "ShopItems" : ["food","grocery","vegetables"],
     "myObj" : {
-        "name" : "Naik",
+        "name" : "Patil",
         "marks" : 80.25,
         "ShopItems" : ["food","clothes",{"a":true}]
     }
